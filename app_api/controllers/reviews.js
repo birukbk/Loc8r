@@ -5,6 +5,7 @@ var sendJsonResponse = function(res,status,content){
 	res.json(content);
 };
 
-module.exports.reviewsReadOne = function(req,res){
-	sendJsonResponse(res,200,{"status":"success"});
-	};
+// module.exports.reviewsReadOne = function(req,res){
+// 	sendJsonResponse(res,200,{"status":"success"});
+// 	};
+// 	
